@@ -117,7 +117,9 @@
 	} 
 	NS_HANDLER
 	// boring generic handler alert
-	[[NSAlert alertWithMessageText:@"Error with listenThread" defaultButton:@"Ok" alternateButton:nil otherButton:nil informativeTextWithFormat:[localException reason]] runModal];
+	NSLog(@"error with listen thread %@",[localException reason]);
+	// TODO: make this platform aware, ie iPhone has no NSAlert
+//	[[NSAlert alertWithMessageText:@"Error with listenThread" defaultButton:@"Ok" alternateButton:nil otherButton:nil informativeTextWithFormat:[localException reason]] runModal];
 	
 	NS_ENDHANDLER
 	[apool release];
