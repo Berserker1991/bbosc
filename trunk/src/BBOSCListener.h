@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is used if you are implementing a server system
 // it starts listening on a certain port and generates dispatches 

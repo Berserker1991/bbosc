@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #import "BBOSCPacket.h"
 
 // bundles hold a bunch of timestamped messages

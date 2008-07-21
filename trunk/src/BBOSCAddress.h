@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is the address portion of the message, it is used to identify where the
 // message gets dispatched to on the server side.

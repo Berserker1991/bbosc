@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is probably the most complicated object of all the OSC objects, but only because
 // it needs to handle so many different data types
