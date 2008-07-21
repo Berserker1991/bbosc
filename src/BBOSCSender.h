@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #include <netdb.h>
 #include <sys/types.h>
 #include <sys/socket.h>

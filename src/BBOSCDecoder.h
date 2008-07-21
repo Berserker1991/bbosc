@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is an object that takes raw packets and gives back osc messages or osc bundles
 // it is similar to the BBOSCDataUtilities except that this object knows about the structure of 

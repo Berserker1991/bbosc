@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is the default delegate class for the listener.
 // it implements the single dispatch method: -(void)dispatchRawPacket:(NSData*)someData

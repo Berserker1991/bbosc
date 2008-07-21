@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // the dataUtilities deal with the argument-level of the bit stream. 
 // the datautilities dont know anything about the structure of the 

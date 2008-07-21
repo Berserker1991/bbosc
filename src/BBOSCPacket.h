@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 // this is a generic container for OSC data grams
 // it is meant to be an abstract class

@@ -23,7 +23,7 @@
 //
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #import "BBOSCPacket.h"
 
 // BBOSCMessage is the container object for OSC dispatch messages.
