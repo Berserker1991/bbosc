@@ -87,4 +87,11 @@
 	return [BBOSCDataUtilities dataBlockFromString:[self address]];
 }
 
+
+- (void) dealloc
+{
+	[address release];
+	[super dealloc];
+}
+
 @end

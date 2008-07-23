@@ -86,4 +86,10 @@
 	return stringRep;
 }
 
+- (void) dealloc
+{
+	[timeStamp release];
+	[super dealloc];
+}
+
 @end

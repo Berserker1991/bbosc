@@ -51,4 +51,11 @@
 {
 	return @"abstract parent class: BBOSCPacket";
 }
+
+- (void) dealloc
+{
+	[containedObjects release];
+	[super dealloc];
+}
+
 @end
