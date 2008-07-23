@@ -37,7 +37,7 @@
 	NSDate * timeStamp;
 }
 
-@property (copy) NSDate* timeStamp;
+@property (retain) NSDate* timeStamp;
 
 + (BBOSCBundle*)bundleWithTimestamp:(NSDate*)aDate;
 - (NSData*)packetizedData;

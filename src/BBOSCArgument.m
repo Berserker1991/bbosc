@@ -211,5 +211,11 @@
 	return @"no arg value";
 }
 
+- (void) dealloc
+{
+	[data release];
+	[super dealloc];
+}
+
 
 @end

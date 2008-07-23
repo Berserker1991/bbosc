@@ -45,7 +45,6 @@
 	[self doTest];
 }
 
-
 // just some tests and sample code basically
 
 -(void)doTest

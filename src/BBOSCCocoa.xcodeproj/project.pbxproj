@@ -74,9 +74,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				48D8CBC60E34270E00AE066E /* packets */,
 				48D8CBBA0E34270E00AE066E /* BBAppController.h */,
 				48D8CBBB0E34270E00AE066E /* BBAppController.m */,
+				48D8CBC60E34270E00AE066E /* packets */,
 				48D8CBBC0E34270E00AE066E /* BBOSCDispatcher.h */,
 				48D8CBBD0E34270E00AE066E /* BBOSCDispatcher.m */,
 				48D8CBBE0E34270E00AE066E /* BBOSCListener.h */,
