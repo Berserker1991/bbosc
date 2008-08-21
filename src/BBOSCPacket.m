@@ -41,6 +41,11 @@
 	[containedObjects addObjectsFromArray:anArray];	
 }
 
+-(NSArray*)attachedObjects
+{
+	return containedObjects;
+}
+
 // this is an abstract method
 -(NSData*)packetizedData
 {
